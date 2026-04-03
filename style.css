@@ -49,11 +49,13 @@ a { text-decoration: none; color: inherit; }
 /* 로고 영역 */
 .story-logo {
   display: flex; align-items: center; justify-content: center;
-  gap: 0.5rem; margin-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
 }
-.logo-br .br-main { font-size: 2rem; font-weight: 900; color: #3A4FA0; letter-spacing: -0.05em; line-height: 1; }
-.logo-br .br-sub  { font-size: 0.48rem; font-weight: 700; color: #3A4FA0; letter-spacing: 0.1em; display: block; }
-.logo-text { font-size: 1.75rem; font-weight: 900; color: #222; letter-spacing: -0.02em; }
+.logo-img {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
+}
 
 /* 스토리 오프닝 */
 .story-opening {
